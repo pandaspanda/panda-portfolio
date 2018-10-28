@@ -66,6 +66,7 @@ h3 {
     color: #9CABAA;
 }
 
+
 .emphasis1 {
     color: #9B3F5F;
 }
@@ -184,4 +185,17 @@ nav ul li {
 
 #contact .full-width {
     margin: 0px 100px;
+}
+
+#contact ul{
+    margin-left: 25px;
+}
+
+#contact ul li{
+    display: inline-block;
+    float: left;
+    padding: 0px 10px;
+    list-style-type: none;
+
+
 }
