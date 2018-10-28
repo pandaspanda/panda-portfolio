@@ -1,9 +1,44 @@
 /***** BASE STYLES *****/
 
-body {
-    margin: 0px 100px;
+nav, header, body {
     background-color: #000;
     color: #fff;
+    padding: auto;
+    margin: auto;
+}
+
+nav,  #about {
+    width: 1400px;
+
+}
+
+nav {
+    height: 15px;
+}
+
+#banner {
+   height:725px;
+}
+
+
+body {
+    width: 1200px; 
+    position: relative;
+    font-family: sans-serif;
+
+}
+
+#work {
+    height: 1550px; 
+}
+
+#about {
+    height: 550px;
+}
+
+#contact {
+    height: 400px;
+    text-align: center;
 }
 
 nav, h1, h2 {
@@ -11,10 +46,21 @@ nav, h1, h2 {
     text-transform: lowercase;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px 0px; 
+}
+
 /***** GRID *****/
 
-.full-full-width {
-    width: 1400px;
+
+.half-full-width {
+    width: 700px;
 }
 
 .full-width {
@@ -24,6 +70,7 @@ nav, h1, h2 {
 .half-width {
     width: 600px;
     height: 350px;
+    display: inline-block;
     float: left; 
 }
 
@@ -32,12 +79,32 @@ nav, h1, h2 {
     float: left;
 }
 
-/***** HEADER *****/
 
-nav ul li{
+/***** NAV *****/
+
+
+nav ul li {
     float: right;
     display: inline-block;
-    padding-right: 45px;
+    padding-left: 20px;
+}
+
+/***** HEADER *****/
+
+header h1 {
+    width: 600px;
+    padding: 300px 100px;
 }
 
 
+/***** WORK *****/
+
+.box {
+ 
+}
+
+/***** ABOUT *****/
+
+#about {
+    background-image: url(../img/about-panda.png)
+}
