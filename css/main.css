@@ -3,12 +3,11 @@
 nav, header, body {
     background-color: #000;
     color: #fff;
-    margin: 0px ;
+    margin: 0px;
 }
 
 header, #about {
     width: 1400px;
-
 }
 
 nav {
@@ -17,28 +16,29 @@ nav {
 
 
 #banner {
-   height: 725px;
+    height: 725px;
+    background-image:url(../img/banner-image-2.png);
+    margin: 0px 25px;
+    width: 1400px;
 }
 
 
 body #work, body #contact {
-    margin: 0px 100px;
-    width: 1200px; 
-    position: relative;
     font-family: 'Niramit', sans-serif;
     font-size: 24px;
-
+    margin: 0px 100px;
+    width: 1200px;
 }
 
 #work {
     height: 1550px; 
-    margin: 0px 50px;
-
+    padding-top: 25px;
 }
 
 #about {
     height: 550px;
     font-family: 'Niramit', sans-serif;
+    background-image: url(../img/about-panda.png)
 }
 
 #contact {
@@ -60,6 +60,7 @@ h2 {
     text-align: center;
     padding: 20px 0px; 
     color: #34727E;
+    font-size: 32px;
 }
 
 h3 {
@@ -82,6 +83,8 @@ h3 {
 .emphasis4 {
     color: #9CABAA;
 }
+
+
 /***** GRID *****/
 
 
@@ -98,8 +101,7 @@ h3 {
 .half-width {
     width: 550px;
     display: inline-block;
-    float: left; 
-
+    float: left;
 }
 
 .third-width {
@@ -110,7 +112,6 @@ h3 {
 
 /***** HEADER *****/
 
-
 nav {
     font-size: 30px;
     margin: 0px 20px;
@@ -118,25 +119,18 @@ nav {
 }
 
 nav ul li {
-    float: right;
     display: inline-block;
+    float: right;
     padding-left: 40px;
 }
 
 
-#banner {
-    background-image:url(../img/banner-image-2.png);
-    width: 1400px;
-    margin: 0px 25px;
-}
-
 #banner h1 {
     font-size: 32px;
-    text-align: right;
     line-height: 36px;
-    padding: 450px 40px 0px 50px;
+    padding: 440px 40px 0px 50px;
+    text-align: right;
     width: 350px;
-
 }
 
 
@@ -158,15 +152,13 @@ nav ul li {
     padding-left: 50px;
 }
 
+
 /***** ABOUT *****/
 
-#about {
-    background-image: url(../img/about-panda.png)
-}
-
 #about h2 {
-    font-size: 32px;
-    line-height: 22px;
+    line-height: 20px;
+    margin: 0;
+    padding: 10px 0 5px 0;
 }
 
 #about p {
@@ -177,14 +169,16 @@ nav ul li {
 
 #about p strong {
     color: #9CABAA;
-    font-size:28px;
-    line-height: 24px;
+    font-size: 28px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0 ;
 }
 
 /***** CONTACT *****/
 
 #contact .full-width {
-    margin: 0px 100px;
+    margin: 20px 100px;
 }
 
 #contact ul{
@@ -196,6 +190,4 @@ nav ul li {
     float: left;
     padding: 0px 10px;
     list-style-type: none;
-
-
 }
