@@ -33,10 +33,12 @@ body #work, body #contact {
 #work {
     height: 1550px; 
     margin: 0px 50px;
+
 }
 
 #about {
     height: 550px;
+    font-family: 'Niramit', sans-serif;
 }
 
 #contact {
@@ -51,14 +53,34 @@ nav, h1, h2 {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #9CABAA;
 }
 
 h2 {
     text-align: center;
     padding: 20px 0px; 
+    color: #34727E;
 }
 
+h3 {
+    color: #9CABAA;
+}
+
+.emphasis1 {
+    color: #9B3F5F;
+}
+
+.emphasis2 {
+    color: #34727E;
+}
+
+.emphasis3 {
+    color: #B23411;
+}
+
+.emphasis4 {
+    color: #9CABAA;
+}
 /***** GRID *****/
 
 
@@ -97,7 +119,7 @@ nav {
 nav ul li {
     float: right;
     display: inline-block;
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 
@@ -141,8 +163,25 @@ nav ul li {
     background-image: url(../img/about-panda.png)
 }
 
+#about h2 {
+    font-size: 32px;
+    line-height: 22px;
+}
+
 #about p {
-
+    font-size: 24px;
     margin-left: 100px;
+    width: 600px;
+}
 
+#about p strong {
+    color: #9CABAA;
+    font-size:28px;
+    line-height: 24px;
+}
+
+/***** CONTACT *****/
+
+#contact .full-width {
+    margin: 0px 100px;
 }
