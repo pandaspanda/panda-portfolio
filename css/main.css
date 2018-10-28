@@ -1,15 +1,24 @@
+/***** BASE STYLES *****/
+
 body {
     margin: 0px 100px;
     background-color: #000;
     color: #fff;
 }
 
+nav, h1, h2 {
+    font-family: 'Special Elite', cursive;
+    text-transform: lowercase;
+}
+
+/***** GRID *****/
+
 .full-full-width {
     width: 1400px;
 }
 
 .full-width {
-    width: 1200px;
+    width: 1200px;  
 }
 
 .half-width {
@@ -23,6 +32,12 @@ body {
     float: left;
 }
 
-ul {
+/***** HEADER *****/
+
+nav ul li{
     float: right;
+    display: inline-block;
+    padding-right: 45px;
 }
+
+
