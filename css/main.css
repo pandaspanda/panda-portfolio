@@ -1,0 +1,28 @@
+body {
+    margin: 0px 100px;
+    background-color: #000;
+    color: #fff;
+}
+
+.full-full-width {
+    width: 1400px;
+}
+
+.full-width {
+    width: 1200px;
+}
+
+.half-width {
+    width: 600px;
+    height: 350px;
+    float: left; 
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+ul {
+    float: right;
+}
