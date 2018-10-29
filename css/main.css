@@ -112,8 +112,6 @@ nav {
     font-size: 30px;
 }
 
-
-
 nav ul li {
     display: inline-block;
     float: right;
@@ -184,9 +182,6 @@ nav ul li {
 
 /***** CONTACT *****/
 
-#contact p {
-    
-}
 
 #contact ul{
     margin-left: 10px;
