@@ -1,14 +1,15 @@
 /***** BASE STYLES *****/
 
-nav, header, body {
+body {
     background-color: #000;
     color: #fff;
     margin: 0px;
+    width: 1200px;
+    margin: auto;
+    font-family: 'Niramit', sans-serif;
+    font-size: 24px;
 }
 
-header, #about {
-    width: 1400px;
-}
 
 nav {
     height: 75px;
@@ -18,32 +19,30 @@ nav {
 #banner {
     height: 725px;
     background-image:url(../img/banner-image-2.png);
-    margin: 0px 25px;
     width: 1400px;
+    margin-left: -50px;
 }
 
-
-body #work, body #contact {
-    font-family: 'Niramit', sans-serif;
-    font-size: 24px;
-    margin: 0px 100px;
-    width: 1200px;
-}
 
 #work {
-    height: 1550px; 
+    height: 1500px; 
     padding-top: 25px;
 }
 
 #about {
     height: 550px;
     font-family: 'Niramit', sans-serif;
-    background-image: url(../img/about-panda.png)
+    background-image: url(../img/about-panda.png);
+    width: 1400px;
+    margin-left: -50px;
 }
+
+
 
 #contact {
     height: 400px;
     text-align: center;
+
 }
 
 nav, h1, h2 {
@@ -54,6 +53,10 @@ nav, h1, h2 {
 a {
     text-decoration: none;
     color: #9CABAA;
+}
+
+a:hover { 
+    text-decoration: underline;
 }
 
 h2 {
@@ -87,12 +90,6 @@ h3 {
 
 /***** GRID *****/
 
-.half-full-width {
-    width: 660px;
-    display: inline-block;
-    float: left;
-}
-
 .full-width {
     width: 1200px;  
 }
@@ -113,9 +110,9 @@ h3 {
 
 nav {
     font-size: 30px;
-    margin: 0px 20px;
-    padding: 20px;
 }
+
+
 
 nav ul li {
     display: inline-block;
@@ -127,7 +124,7 @@ nav ul li {
 #banner h1 {
     font-size: 32px;
     line-height: 36px;
-    padding: 440px 40px 0px 50px;
+    padding: 480px 50px 0px 0px;
     text-align: right;
     width: 350px;
 }
@@ -136,10 +133,18 @@ nav ul li {
 /***** WORK *****/
 
 .box {
-    height: 350px;
+    height: 300px;
     display: inline-block;
     float: left;
     padding: 50px 0px;
+}
+
+.box h3, .box h3 a {
+    padding-top:50px;
+}
+
+.box p {
+    padding-top: 10px;
 }
 
 .left {
@@ -156,14 +161,16 @@ nav ul li {
 
 #about h2 {
     line-height: 20px;
-    margin: 0;
-    padding: 10px 0 5px 0;
+    margin: 10px 0px 0px 50px;
+     width: 1200px;
 }
+
+
 
 #about p {
     font-size: 24px;
-    margin-left: 100px;
-    width: 600px;
+    width: 800px;
+    margin: auto;
 }
 
 #about p strong {
@@ -171,18 +178,18 @@ nav ul li {
     font-size: 28px;
     line-height: 20px;
     margin: 0;
-    padding: 0 ;
+    padding: 0;
 }
 
 
 /***** CONTACT *****/
 
-#contact .full-width {
-    margin: 20px 100px;
+#contact p {
+    
 }
 
 #contact ul{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 #contact ul li{
